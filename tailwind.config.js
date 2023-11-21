@@ -15,6 +15,9 @@ module.exports = {
       }, 
       fontSize: {
         mainTitle: '3.5rem',
+      }, 
+      backgroundImage: {
+        'drink': "url('./assets/imgDrink.jpeg')",
       }
     },
   },
