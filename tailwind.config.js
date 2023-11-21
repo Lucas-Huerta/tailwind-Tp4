@@ -18,6 +18,14 @@ module.exports = {
       }, 
       backgroundImage: {
         'drink': "url('./assets/imgDrink.jpeg')",
+      }, 
+      borderWidth: {
+        '2xs': '0.125rem',
+        '3xs': '0.0125rem',
+      }, 
+      padding: {
+        "2xs": '0.125rem',
+        "xs": '0.25rem',
       }
     },
   },
