@@ -17,7 +17,7 @@ module.exports = {
         mainTitle: '3.5rem',
       }, 
       backgroundImage: {
-        'drink': "url('./assets/imgDrink.jpeg')",
+        'drink': "url('./imgDrink.jpeg')",
       }, 
       borderWidth: {
         '2xs': '0.125rem',
