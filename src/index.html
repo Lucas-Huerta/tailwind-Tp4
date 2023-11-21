@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body>
+    <div class="dark:bg-slate-900 font-Montserrat dark:text-black w-screen h-screen bg-activeBackground">
+        <button
+            id="theme-toggle"
+            class="p-4 px-5 absolute bottom-2 right-2 rounded-full text-white bg-slate-900 dark:text-slate-900 dark:bg-white"
+        >
+            <i class="ri-sun-fill"></i>
+        </button>
+
+        <div class="pt-4 px-4 flex items-center justify-between">
+            <div class="flex flex-col justify-center items-center p-4 rounded-full bg-white dark:bg-activeColorDark">
+                <div class="w-5 h-0.5 bg-gray-900"></div>
+                <div class="w-5 h-0.5 bg-gray-900 mt-1"></div>
+                <div class="w-5 h-0.5 bg-gray-900 mt-1"></div>
+            </div>
+
+            <div class="flex items-center gap-4 bg-white rounded-full p-2 justify-between">
+                <p class="font-semibold">
+                    Take the quiz
+                </p>
+                <i class="ri-links-fill rounded-full py-1 px-2 bg-black dark:bg-activeColorDark dark:text-black text-white"></i>
+            </div>
+
+            <div class="flex items-center bg-white w-8 h-8 rounded-full p-2 justify-between">
+            </div>
+        </div>
+    </div>
+
+
+  <script>
+    const btn = document.getElementById("theme-toggle");
+    btn.addEventListener("click", function () {
+        document.body.classList.toggle("dark");
+    });
+</script>
+</body>
+</html>
