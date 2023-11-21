@@ -26,6 +26,15 @@ module.exports = {
       padding: {
         "2xs": '0.125rem',
         "xs": '0.25rem',
+      }, 
+      keyframes: {
+        swoosh: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(1000px)' },
+        }
+      }, 
+      animation: {
+        'swoosh-button': 'swoosh 3s linear',
       }
     },
   },
