@@ -17,7 +17,7 @@ module.exports = {
         mainTitle: '3.5rem',
       }, 
       backgroundImage: {
-        'drink': "url('./imgDrink.jpeg')",
+        'drink': "url('https://st5.depositphotos.com/18778506/65104/i/450/depositphotos_651046062-stock-photo-young-healthy-girl-sport-water.jpg')",
       }, 
       borderWidth: {
         '2xs': '0.125rem',
