@@ -12,6 +12,9 @@ module.exports = {
       },
       fontFamily: {
         'Montserrat': ['Montserrat', 'sans-serif'],
+      }, 
+      fontSize: {
+        mainTitle: '3.5rem',
       }
     },
   },
